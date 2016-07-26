@@ -35,5 +35,8 @@ HEAD now at a76fd22 another commit message
 ```
 ### Todo
 
+* for/find loop works only with paths without spaces, [rewrite using while/find](https://stackoverflow.com/questions/8677546/bash-for-in-looping-on-null-delimited-string-variable/8677566#8677566)
 * absolute paths doesn't work
-* merge inside [proper redmine git repository](https://github.com/redmine/redmine), by checking out revision from branch
+* merge inside [proper redmine git repository](https://github.com/redmine/redmine),
+  by checking out revision from branch
+  
