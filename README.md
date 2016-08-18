@@ -9,10 +9,14 @@ and one in current redmine directory, which is also a common ancestor of the per
 Invocation:
 
 ```
-[teksisto@localhost vhod]$ tree -L 1
+[teksisto@localhost vhod]$ tree -L 3
 .
 ├── mergeviews.sh
 ├── redmine-2.3.1
+│   ├── <...>
+│   └── plugins
+│      ├── redmine_some_plugin
+│      └── redmine_other_plugin
 └── redmine-3.3.0
 
 [teksisto@localhost]$ ./mergeviews.sh --old=redmine-2.3.1 --new=redmine-3.3.0                                   
@@ -36,7 +40,7 @@ HEAD now at a76fd22 another commit message
 ### Todo
 
 * for/find loop works only with paths without spaces, [rewrite using while/find](https://stackoverflow.com/questions/8677546/bash-for-in-looping-on-null-delimited-string-variable/8677566#8677566)
-* absolute paths doesn't work
-* merge inside [proper redmine git repository](https://github.com/redmine/redmine),
+* absolute paths do not work
+* merge inside proper [redmine git repository](https://github.com/redmine/redmine),
   by checking out revision from branch
   
