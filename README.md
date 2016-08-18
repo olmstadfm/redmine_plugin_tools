@@ -15,8 +15,8 @@ Invocation:
 ├── redmine-2.3.1
 │   ├── <...>
 │   └── plugins
-│      ├── redmine_some_plugin
-│      └── redmine_other_plugin
+│       ├── redmine_some_plugin
+│       └── redmine_other_plugin
 └── redmine-3.3.0
 
 [teksisto@localhost]$ ./mergeviews.sh --old=redmine-2.3.1 --new=redmine-3.3.0                                   
