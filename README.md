@@ -43,4 +43,5 @@ HEAD now at a76fd22 another commit message
 * absolute paths do not work
 * merge inside proper [redmine git repository](https://github.com/redmine/redmine),
   by checking out revision from branch
+* don't use symbolic links inside `--old` and `--new` directories, `find` will ignore them
   
